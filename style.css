@@ -15,11 +15,14 @@ body {
   color: #333;
   line-height: 1.6;
   background-color: #f5e37b;
+  height: 100vh;
+  width: 100%;
 
 }
 
 /* Navigation Bar Styles */
 .navbar {
+  width: 100%;
   background-color: #ffea02;
   padding: 10px 0;
 }
@@ -196,6 +199,10 @@ header .btn:hover {
 }
 
 @media screen and (max-width: 480px) {
+
+  .navbar{
+    width: 10;
+  }
   .product-card {
     width: 100%;
     margin: 10px 0;
@@ -210,6 +217,12 @@ header .btn:hover {
     line-height: 0cap;
   }
 
+  .ghee_img {
+    padding-top: 14px;
+    /* border-radius: 9px; */
+    height: 200px;
+    width: 100%;
+  }
   .navbar .nav-links {
     flex-direction: row;
     align-items: center;
@@ -219,6 +232,9 @@ header .btn:hover {
     margin-bottom: 10px;
   }
 
-  
+  .hero{
+    flex-direction: column;
+    align-items: center;
+  } 
 }
 
