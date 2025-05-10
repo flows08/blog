@@ -34,6 +34,7 @@ p{
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
   margin: 20px;
 }
 
@@ -44,7 +45,6 @@ p{
   padding: 20px;
   margin: 10px;
   width: calc(33% - 40px);
-   /* Adjust width for three columns */
 }
 
 
@@ -171,7 +171,7 @@ header .btn:hover {
 /* button design  */
 .button{
   margin-top: 2rem;
-  padding: 8px 3px;
+  padding: 3px;
   text-decoration: none;
   border-radius: 5px;
   border: 1px solid rgb(252, 206, 6);
@@ -186,12 +186,6 @@ header .btn:hover {
   border: none;
   transition: all 0.3s ease-in-out;
 }
-
-
-
-
-
-
 
 /* Footer */
 .footer {
@@ -254,9 +248,18 @@ header .btn:hover {
   
   } 
 
-  .main-1{
-    list-style: 1;
+ .button{
+    padding: 3px 3px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid rgb(252, 206, 6);
+    background: transparent;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
   }
+ }
 
   .main-content{
     flex-direction: column;
