@@ -1,7 +1,4 @@
 
-
-
-
 /* Basic Reset */
 * {
   margin: 0;
@@ -17,8 +14,42 @@ body {
   background-color: #f5e37b;
   height: 100vh;
   width: 100%;
+  text-align: left;
+
 
 }
+
+/* home blog card design */
+.main-1{
+  text-align: center;
+  padding: 20px;
+}
+p{
+  padding: 0;
+  line-height: normal;
+}
+
+.main-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.post-cart{
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: calc(33% - 40px);
+   /* Adjust width for three columns */
+}
+
+
+
+
 
 /* Navigation Bar Styles */
 .navbar {
@@ -35,35 +66,6 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
-
-h1, h2, h3 {
-  color: #d78d00;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-features-list li::before {
-  content: "\2714\0020";
-  color: green;
-}
-
-#wrapper {
-  max-width: 1200px;
-  /* margin: 0 auto; */
-  padding: 20px;
-}
-
-.section {
-  margin-bottom: 30px;
-}
-.faq {
-  padding: 15px;
-  border-radius: 8px;
-}
-
-
 .navbar .logo {
   font-size: 2em;
   color: white;
@@ -80,31 +82,53 @@ features-list li::before {
 }
 
 .navbar .nav-links a {
-  color: white;
+  color: #ff9900;
   text-decoration: none;
   font-size: 1.2em;
 }
 
-.navbar .nav-links a:hover {
-  color: #ff9900;
+ .h-colors {
+  color: #d78d00;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ul li{
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+  text-align: left;
+  line-height: 1;
+}
+
+
+
+/* .features-list li::before {
+  content: "\2714\0020";
+  color: green;
+} */
+
+#wrapper {
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+.faq {
+  padding: 15px;
+  border-radius: 8px;
+}
 
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
-header {
-  background-color: #007bff;
-  color: white;
-  text-align: center;
-  padding: 30px 0;
-}
 
-header h1 {
-  font-size: 3em;
-}
 
 header .btn {
   display: inline-block;
@@ -137,7 +161,6 @@ header .btn:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* margin-top: 20px;  */
 }
 
 
@@ -148,21 +171,17 @@ header .btn:hover {
   width: 600px;
 }
 
-
-/* About Section */
-.about {
-  padding: 50px 0;
-  background-color: white;
-}
+/* button design  */
 .button{
-  margin-top: 9px;
+  margin-top: 2rem;
   padding: 8px 3px;
   text-decoration: none;
   border-radius: 5px;
-  /* background-color: #ffea02; */
-  border: 1px solid #52514e;
+  border: 1px solid rgb(252, 206, 6);
   background: transparent;
-  color: white;
+  color: #000;
+  text-transform: capitalize;
+
 }
 .button:hover{
   background-color: #d78d00;
@@ -170,7 +189,6 @@ header .btn:hover {
   border: none;
   transition: all 0.3s ease-in-out;
 }
-
 
 
 
@@ -187,7 +205,9 @@ header .btn:hover {
   margin-top: 40px;
   font-weight: bold;
   background-color: #ffea02;
-
+  position: relative;
+  top: 34%;
+  bottom: 0;
 
 }
 
@@ -219,7 +239,6 @@ header .btn:hover {
 
   .ghee_img {
     padding-top: 14px;
-    /* border-radius: 9px; */
     height: 200px;
     width: 100%;
   }
@@ -235,6 +254,27 @@ header .btn:hover {
   .hero{
     flex-direction: column;
     align-items: center;
+  
   } 
+
+  .main-1{
+    list-style: 1;
+  }
+
+  .main-content{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .post-cart{
+    width: 100%;
+    margin: 10px 0;
+    padding: 13px  10px;
+  }
+
+  .wrapper_text{
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 

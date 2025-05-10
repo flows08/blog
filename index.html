@@ -1,46 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ralpha Organic</title>
+  <title>Nikhil - blog</title>
+  <meta name="title" content="Organic ghee- blog" />
+  <meta name="description" content="Ralpha Organic Ghee- blog" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Ralpha, Ralpha organic, Grass feed organic ghee, organic ghee, Why Use Ralpha Organic Ghee?, Benifits of using Ralpha Organic Ghee" />
+
   <link rel="stylesheet" href="style.css" />
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RNYR70CJXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RNYR70CJXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-RNYR70CJXX');
-</script>
+    gtag('config', 'G-RNYR70CJXX');
+  </script>
 
-  
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PBTDLWSW');</script>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PBTDLWSW');</script>
   <!-- End Google Tag Manager -->
 </head>
+
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBTDLWSW"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBTDLWSW" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
- <!-- Navigation Bar -->
- <nav class="navbar">
-  <div class="container">
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="blog.html">Blog</a></li>
-    </ul>
-  </div>
-</nav>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+  </nav>
 
+  <main>
+    <h1 class="main-1 h-colors">Welcome to Our Blog</h1>
+    <section class="main-content ">
+      <!-- List all your posts -->
+      <article class="post-cart">
+        <h2 class="h-colors">Why Use Ralpha Organic Ghee?</h2>
+        <p>Discover the health benefits of using Ralpha...</p>
+        <a href="./blog/ghee.html" class="button">Read post</a>
+      </article>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+        
 
-
+      <p id="date_footer"></p>
+  </footer>
 </body>
+<script>
+  document.getElementById("date_footer").innerHTML = "© " + new Date().getFullYear() + " Ralpha | Pure Food, Pure Soul"; 
+</script>
+
 </html>
